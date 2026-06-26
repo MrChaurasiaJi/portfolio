@@ -109,9 +109,8 @@ The production files will be generated in the `dist/` folder.
 
 This project can be deployed on:
 
-- [Vercel](https://vercel.com/)
 - [Netlify](https://netlify.com/)
-- [GitHub Pages](https://pages.github.com/)
+
 
 ---
 
