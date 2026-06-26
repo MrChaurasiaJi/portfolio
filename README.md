@@ -1,16 +1,122 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React and Vite, showcasing my skills, projects, and contact information.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> Coming soon / Add your deployed link here
 
-## React Compiler
+## GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[github.com/MrChaurasiaJi/portfolio](https://github.com/MrChaurasiaJi/portfolio)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Hero / About section with introduction
+- Skills section highlighting technical expertise
+- Projects section with work showcase
+- Contact section for reaching out
+- Resume download support (PDF)
+- Responsive design for all screen sizes
+
+---
+
+## Tech Stack
+
+- **React JS** - UI library
+- **Vite** - Build tool and dev server
+- **CSS** - Styling
+- **ESLint** - Code linting
+
+---
+
+## Project Structure
+
+```
+portfolio/
+├── public/
+│   ├── favicon.svg
+│   ├── icons.svg
+│   └── resume.pdf
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── data/
+│   ├── hooks/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── vite.config.js
+├── package.json
+└── README.md
+```
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v18 or above recommended)
+- npm (comes with Node.js)
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/MrChaurasiaJi/portfolio.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd portfolio
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+5. Open your browser and go to `http://localhost:5173`
+
+---
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+The production files will be generated in the `dist/` folder.
+
+---
+
+## Deployment
+
+This project can be deployed on:
+
+- [Vercel](https://vercel.com/)
+- [Netlify](https://netlify.com/)
+- [GitHub Pages](https://pages.github.com/)
+
+---
+
+## Author
+
+**Krashnkant Chaurasia**  
+B.Tech CSE — SISTec-R, Bhopal  
+[GitHub](https://github.com/MrChaurasiaJi)
